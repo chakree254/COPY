@@ -7,7 +7,10 @@ Artist::Artist(std::string name, int age, std::string genre)
 }
 
 std::string Artist::playMusic(){
-    return getName() + " is playing " + genre + " music.";
+    return getName() + " is playing " + genre + " music.";//getname() 's Artist
 }
 
+std::string Artist::introduce(){
+    return Person::introduce() + "\n" + playmusic();
+}
 

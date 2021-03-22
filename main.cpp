@@ -21,4 +21,13 @@ int main() {
     Person F("Chakree Shanpakdee",20);
     cout << F.introduce() << endl;
 
+    Person* people[10];
+    people[0]= new Person("A", 123);
+    people[1]= new Artist("B", 48, "ROCK";
+    people[2]= new Athlete("C", 18, "Table tennis");
+
+    for (int i=0; i< 3; ++i){
+        Person* = people[i];
+        count << "[" +    << i << "]" << p -> introduce() <<endl;
+    }
 }
